@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project - MySite</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">MySite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Web Design</a></li>
+                            <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+                            <li><a class="dropdown-item" href="#">SEO</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-primary">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <hr class="my-5">
+
+    <!-- Hero Section -->
+    <section class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Welcome to MySite</h1>
+            <p class="lead">We provide top-notch web design, graphic design, and digital marketing solutions.</p>
+            <a href="#services" class="btn btn-light btn-lg mt-3">Explore Services</a>
+        </div>
+    </section>
+
+    <hr class="my-5">
+
+    <!-- Services Section -->
+    <section id="services" class="container my-5">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://intersmart.ae/wp-content/uploads/2024/10/What-is-web-designing.webp" class="card-img-top" alt="Web Design">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Web Design</h5>
+                        <p class="card-text">Modern, responsive websites to showcase your brand online professionally.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://elements.envato.com/learn/wp-content/uploads/2022/05/graphic-design-tools.png" class="card-img-top" alt="Graphic Design">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Graphic Design</h5>
+                        <p class="card-text">Creative logos, banners, and visuals to make your business stand out.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://romebusinessschool.com/wp-content/uploads/2025/01/Screenshot-2025-01-21-alle-15.45.48-scaled.webp" class="card-img-top" alt="Digital Marketing">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Digital Marketing</h5>
+                        <p class="card-text">Grow your online presence with SEO, social media campaigns, and marketing strategies.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <hr class="my-5">
+
+    <!-- Contact Form -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary px-4">Send Message</button>
+                <button type="reset" class="btn btn-secondary px-4">Reset</button>
+            </div>
+        </form>
+    </section>
+
+    <hr class="my-5">
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-4">
+        &copy; 2026 MySite | All Rights Reserved
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
